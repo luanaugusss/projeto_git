@@ -1,6 +1,9 @@
 body {
     margin: 0;
 }
+.efeito {
+    background-color: gray;
+}
 p {
     padding: 10px;
 }
