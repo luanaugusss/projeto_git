@@ -1,4 +1,4 @@
-Comparação Versionamento Interface.
+Comparação Versionamento Interface:
 
 primeiro arquivo index.html
 
@@ -9,3 +9,4 @@ atualizacao arquivo index e style (add classes no meu arquivo index e o arquivo 
 add detalhes ao arquivo index.
 
 add link na pagina index
+add no index(target="_blank")
