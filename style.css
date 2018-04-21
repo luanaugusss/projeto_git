@@ -1,3 +1,17 @@
+@keyframes topo {
+    0% {background-color: red;}
+    25% {background-color: yellow}
+    50% {background-color: blue}
+    75% {background-color: green}
+    100% {background-color: red}
+}
+@keyframes interface {
+    0% {background-color: red}
+    25% {background-color: yellow}
+    50% {background-color: blue}
+    75% {background-color: green}
+    100% {background-color: red}
+}
 body {
     margin: 0;
 }
@@ -15,11 +29,19 @@ h3 {
     height: 100px;
     line-height: 100px;
     background-color: orange;
-    text-align: center;        
+    text-align: center; 
+    border: 3px solid black;
+    border-radius: 15px;
+    animation-duration: 60s;
+    animation-name: topo;
 }
 .interface {
     width: 100%;
     float: left;
+    border: 3px solid black;
+    border-radius: 15px;
+    animation-duration: 10s;
+    animation-name: interface;
 }
 a {
     color: orange;
