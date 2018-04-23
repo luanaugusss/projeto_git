@@ -11,3 +11,5 @@ add detalhes ao arquivo index.
 add link na pagina index
 add no index(target="_blank")
 enviei meus arquivos para o servidor remoto.
+
+Elcid - Alteração no arquivo index.html e style.css
