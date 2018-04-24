@@ -1,64 +1,133 @@
-<!DOCTYPE>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
-        <title>Interface</title>
-        <link href="style.css" rel="stylesheet">
-        <script type="text/javascript" src="script.js"></script>
-    </head>
-    <body class="efeito" onload="carregou()">
-       <div class="cima"></div>
-        <div class="topo">
-            <h1 class="centralizado"><strong>Controles de Versionamentos GIT VS SVN</strong></h1>
-        </div>
-        <div class="interface">
-            <h3><strong>Interface SVN:</strong></h3>
-            <p>O SVN é uma das ferramentas de controle de versões com o maior número de
-                clientes baseados em interface Web. Geralmente, esses clientes possibilitam que o usuário
-                navegue através da árvore e das várias revisões dos arquivos, além de possibilitar a
-                execução de diffs, o trabalho com o formato rss, a execução de check outs, entre outras
-                funcionalidades. São exemplos de clientes de interface web para o Subversion as
-                ferramentas ViewVC, SVN:Web, WebSVN, ViewSVN, mod_svn_view, Chora, Trac, SVN:RaWeb:Light, SVN Browser, Insurrection e perl_svn. 
-                Existem também muitos clientes que trabalham em modo gráfico, ou GUIs
-                (Graphical User Interfaces), para o Subversion. Esta é uma característica importante na
-                avaliação de ferramentas de controle de versões, pois muitos desenvolvedores não gostam
-                de trabalhar com linhas de comando. São exemplos de GUIs para o Subversion as
-                ferramentas RapidSVN, que é multiplataforma, TortoiseSVN, que funciona como um plug in para o Windows Explorer e Jsvn, desenvolvido com a API Java para
-                interfaces gráficas Swing.
-                <p><strong>Algumas Ferramentas Gráficas Utilizadas:</strong></p>
-                <ul style="list-style-type: circle">
-                    <li>RapidSVN</li>
-                    <li>TortoiseSVN</li>
-                </ul> 
-                <a href="https://www.youtube.com/watch?v=bNizVLu8zHM" target="_blank">Clique aqui para assistir Tutorial SVN!</a>
-        </div>
-        <div class="interface">
-            <h3><strong>Interface GIT:</strong></h3>
-            <p>O GIT não possui muitos clientes baseados em interface Web como o SVN, porém
-                sua distribuição já possui um cliente, o Gitweb. O Gitweb foi desenvolvido na linguagem
-                Perl e permite navegar pelos diretórios através de revisões desejadas, ver o conteúdo dos
-                arquivos, verificar o log de diferentes ramos e examinar os commits, visualizando a
-                mensagem de log e as alterações relativas ao commit. Além disso, ele trabalha com feeds
-                em rss ou no formato atom. Outro bom cliente de interface web para o GIT é o Cgit, que
-                possui uma interface melhor do que a do gitweb e disponibiliza ainda mais detalhes.</p>
-                <strong>Obs: O "forte" do GIT não estar baseado em Interface Web como SVN!</strong>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	
+	<title>Comparação de gerenciadores de versão</title>
+
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	
+	<!-- Bootstrap -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	<!-- Icon font -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="assets/css/styles.css">
+
+	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
+</head>
+<body>
+
+<header id="header">
+	<div id="head" class="parallax" parallax-speed="1">
+		<h1 id="logo" class="text-center">
+			<span class="title" style="color:azure">ENGENHARIA DE SOFTWARE</span>
+			<span class="tagline">COMPARAÇÃO DE GERENCIADORES DE VERSÃO</span>
+		</h1>
+	</div>
+</header>
+
+<main id="main">
+
+	<div class="container">
+
+		<div class="row topspace">
+			
+			<!-- Article main content -->
+			<article class="col-sm-6 maincontent">
+				
+                <div class="widget">
+					<h1 class="page-title"><a href="https://github.com" target="_blank">Interface SVN</a></h1>
+                        <p>O SVN é uma das ferramentas de controle de versões com o maior número de clientes baseados em interface Web. Geralmente, esses clientes possibilitam que o usuário navegue através da árvore e das várias revisões dos arquivos, além de possibilitar a execução de diffs, o trabalho com o formato rss, a execução de check outs, entre outras funcionalidades. São exemplos de clientes de interface web para o Subversion as ferramentas <strong>ViewVC, SVN:Web, WebSVN, ViewSVN, mod_svn_view, Chora, Trac, SVN:RaWeb:Light, SVN Browser, Insurrection e perl_svn.</strong> Existem também muitos clientes que trabalham em modo gráfico, ou GUIs (Graphical User Interfaces), para o Subversion. Esta é uma característica importante na avaliação de ferramentas de controle de versões, pois muitos desenvolvedores não gostam de trabalhar com linhas de comando. São exemplos de GUIs para o Subversion as ferramentas RapidSVN, que é multiplataforma, TortoiseSVN, que funciona como um plug in para o Windows Explorer e Jsvn, desenvolvido com a API Java para interfaces gráficas Swing. 
+                        
+                        <br><br>
+                        <a href="https://www.youtube.com/watch?v=bNizVLu8zHM" target="_blank">Clique aqui para assistir Tutorial SVN!</a>
+                        <br>
+                        <br>
+                        <strong>Algumas Ferramentas Gráficas Utilizadas:</strong>
+                        <br>                
+                        <br><a href="https://rapidsvn.org">RapidSVN</a>
+                        <br><a href="https://tortoisesvn.net">TortoiseSVN</a>
+                    
+                    
+                    
+                    
+                    </p>
+				</div>
+				<div class="widget">
+					<h4>Vantagens do sistema SVN</h4>
+					<ul>
+						<li>Vantagem</li>
+                        <li>Vantagem</li>
+                        <li>Vantagem</li>
+                        <li>Vantagem</li>
+					</ul>
+				</div>
                 
-        </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </body>
+                <div class="widget">
+					<h4>Desvantagens do sistema SVN</h4>
+					<ul>
+						<li>Desvantagem</li>
+                        <li>Desvantagem</li>
+                        <li>Desvantagem</li>
+                        <li>Desvantagem</li>
+					</ul>
+				</div>
+				
+			</article>
+			<!-- /Article -->
+
+			<!-- Sidebar -->
+			<aside class="col-md-6 sidebar sidebar-left">
+
+				<div class="widget">
+					<h1 class="page-title"><a href="https://github.com" target="_blank">Interface GITHUB</a></h1>
+                        <p>O GIT não possui muitos clientes baseados em interface Web como o SVN, porém sua distribuição já possui um cliente, o Gitweb. 
+                        O Gitweb foi desenvolvido na linguagem Perl e permite navegar pelos diretórios através de revisões desejadas,
+                        ver o conteúdo dos arquivos, verificar o log de diferentes ramos e examinar os commits,
+                        visualizando a mensagem de log e as alterações relativas ao commit. 
+                        Além disso, ele trabalha com feeds em rss ou no formato atom. 
+                        Outro bom cliente de interface web para o GIT é o Cgit, que possui uma interface melhor do que a do gitweb
+                        e disponibiliza ainda mais detalhes.
+
+                        Obs: O "forte" do GIT não estar baseado em Interface Web como SVN!                    
+                    </p>
+				</div>
+				<div class="widget">
+					<h4>Vantagens do sistema GITHUB</h4>
+					<ul>
+						<li>Vantagem</li>
+                        <li>Vantagem</li>
+                        <li>Vantagem</li>
+                        <li>Vantagem</li>
+					</ul>
+				</div>
+                
+                <div class="widget">
+					<h4>Desvantagens do sistema SVN</h4>
+					<ul>
+						<li>Desvantagem</li>
+                        <li>Desvantagem</li>
+                        <li>Desvantagem</li>
+                        <li>Desvantagem</li>
+					</ul>
+				</div>
+				
+			</aside>			
+			<!-- /Sidebar -->
+			
+		</div>
+	</div>	<!-- /container -->
+	
+</main>
+
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="assets/js/template.js"></script>
+</body>
 </html>
