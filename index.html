@@ -29,7 +29,7 @@
 	</div>
 </header>
 
-<main id="main">
+<main id="main" style="text-align: justify;">
 
 	<div class="container">
 
@@ -55,23 +55,14 @@
                     </p>
 				</div>
 				<div class="widget">
-					<h4>Vantagens do sistema SVN</h4>
-					<ul>
-						<li>Vantagem</li>
-                        <li>Vantagem</li>
-                        <li>Vantagem</li>
-                        <li>Vantagem</li>
-					</ul>
-				</div>
-                
-                <div class="widget">
-					<h4>Desvantagens do sistema SVN</h4>
-					<ul>
-						<li>Desvantagem</li>
-                        <li>Desvantagem</li>
-                        <li>Desvantagem</li>
-                        <li>Desvantagem</li>
-					</ul>
+					<h4>Vantagens e desvantagens do sistema SVN</h4>
+					
+                    <p>
+                    
+                       O SVN é um controle de versão(VCS) que utiliza uma arquitetura centralizada e pode ser usado commits atômicos e permite de renomear arquivos e diretórios. É uma boa escolha para desenvolvedores individuais e pequenos grupos.Tem mecanismos  práticos em relação a fluxos de trabalho simples e não costumam ter muito conflito. Se destaca quando é exigido mais controle, principalmente em ambientes corporativos.Possui uma vantagem que permite travar arquivos impedindo atualizações, o controle de privilégio de acesso é mais sofisticado e lhe permite um conceito de revisão. O SVN tem a desvantagem de precisar estar sempre conectado para dar commit, os branch são criados pelo servidor. É lento, porém existem mais, depende de um servidor central, atrasando os fluxos de trabalho. 
+                        
+                    </p>
+                    
 				</div>
 				
 			</article>
@@ -92,23 +83,44 @@
                         Obs: O "forte" do GIT não estar baseado em Interface Web como SVN!                    
                     </p>
 				</div>
-				<div class="widget">
-					<h4>Vantagens do sistema GITHUB</h4>
+				
+                <div class="widget">
+					<h4>Vantagens e desvantagens do sistema GIT</h4>
+					
+                    <p>
+                    
+                       Quando se trata da palavra descentralização, o Git entra na jogada. Famoso por possuir um sistema descentralizado, o Git ganha destaque com o seu desenvolvimento descentralizado, em particular às grandes equipes com numerosas atualizações e fluxos considerados como difíceis de se compreender. Quando se trata de pequenas equipes, o uso também é concebível e eficaz.
+Quando falamos em sistemas distribuídos existe uma diferença entre commit e push. O commit é responsável pela criação de um snapshot local e apenas o push  envia as revisões pendentes para outro repositório. O commit faz tudo em sistemas centralizados, o que o torna mais simples, porém ele se torna complexo em ambientes que possuem diversas atualizações feitas por usuários distintos.
+                        
+                    </p>
+                    
+				</div>
+                
+                
+                <div class="widget">
+					<h4>Vantagens do sistema GIT</h4>
 					<ul>
-						<li>Vantagem</li>
-                        <li>Vantagem</li>
-                        <li>Vantagem</li>
-                        <li>Vantagem</li>
+						<li>Possui uma execução mais rápida, as vezes até muito mais rápida por ser otimizada para funcionar via internet.</li>
+                        <li>Ocupa menos espaço no repositório.</li>
+                        <li>Se torna mais fácil a administração de fontes de atualizações em grande diversidade.</li>
+                        <li>Facilidade no trabalho com cópias locais afim de realizar experimentos e desenvolvimentos paralelos. Barateamento e simplicidade dos Branches.</li>
+                        <li>Possui incentivo frequente no commit.</li>
+                        <li>Facilidade em fazer merge.</li>
+                        <li>Permissão de conforto no trabalho sem haver nenhuma perda de funcionalidade e informação sem ter conexão com o servidor central. Possui mais metadados locais.</li>
+                        <li>Contém informações de auditoria nas quais dão mais facilidade na administração de forma geral.</li>
+                        <li>Contém assinatura digital nas revisões.</li>
+                        <li>Pode haver modificação na história do projeto.</li>
+                        <li>Contém uma staging area na qual dá o poder de seleção das partes que deseja mandar para um repositório.</li>
+                        <li>Permissão para maiores fluxos de trabalho.</li>
 					</ul>
 				</div>
                 
                 <div class="widget">
-					<h4>Desvantagens do sistema SVN</h4>
+					<h4>Desvantagens do sistema GIT</h4>
 					<ul>
-						<li>Desvantagem</li>
-                        <li>Desvantagem</li>
-                        <li>Desvantagem</li>
-                        <li>Desvantagem</li>
+						<li>Não possui repositório central. Pode-se eleger um repositório como tal, mas cada um, mesmo o da máquina do desenvolvedor, possui uma cópia inteira e funcional do repositório.</li>
+                        <li>O que torna o Git desvantajoso é o fato dele possuir uma demora significativa na clonagem inicial do repositório, visto que não será feita a transferência só da cópia atual de cada artefato, mas sim do histórico, tags e branches. O que pode acarretar uma diminuição disso é a possibilidade de recuperação das partes do repositório de forma seletiva (branches, tags, data).</li>
+                        <li>Outro ponto desvantajoso é a complexidade de um gerenciamento centralizado e um controle de acesso efetivo, visto que os repositórios são distribuídos em diversos ambientes.</li>
 					</ul>
 				</div>
 				
